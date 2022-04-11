@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../static/images/doctor.jpg);
+	background-repeat: no-repeat;
+	/*这里的100% auto 表示将背景图片的长度100%显示，高度自适应*/
+	background-size: 100% auto;
+}
+
+#maxbox{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 20px ,50px;
+	/*这里的90表示以不透明度90%显示*/
+	background-color: powderblue;
+	text-align: center;
+	width: 600px;
+	height: 400px;
+	border-radius: 10px;
+}
+#maxbox h1{
+	padding: 0;
+	padding-top: 60px;
+	color: white;
+	font-size: 30px;
+}
+
+#maxbox .inputbox{
+	margin-top: 30px;
+	
+}
+#maxbox .inputText{
+	margin-top:20px;
+	
+}
+#maxbox .inputText span{
+	color: white;
+	font-size: 18px;
+	
+	
+}
+#maxbox .inputText input{
+	border: 0;
+	padding: 6px;
+	border-bottom: 1px solid white;
+	/*这里的00表示不透明度为0，即透明显示*/
+	background-color: #FFFFFF50;
+	color: rgb(0, 0, 0);
+}
+#maxbox .inputbox .inputButton{
+	color: white;
+}
+#sign_up{
+	margin-top: 40px;
+	color: #6dc3eb;
+	font-size: 17px;
+	font-weight: 600;
+}
+ #sign_up a{
+ 	color:#3498db ;
+ 	/*现在我们给输入框旁边加上两个矢量图形*/
+} 

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="healthy:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>healthy</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="healthy-1.0.war">
+      <element id="artifact" artifact-name="healthy:war exploded" />
+    </root>
+  </artifact>
+</component>
